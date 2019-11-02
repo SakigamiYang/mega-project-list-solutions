@@ -34,7 +34,7 @@ public class CollatzConjectureTest {
     public ExpectedException expectedException = ExpectedException.none();
 
     @Test
-    public void testGetStepsIllegalArgumentException() throws IllegalArgumentException {
+    public void testGetStepsWithIllegalArgumentException() throws IllegalArgumentException {
         expectedException.expect(IllegalArgumentException.class);
         expectedException.expectMessage("n must be greater than 1.");
         CollatzConjecture.getSteps(1);
