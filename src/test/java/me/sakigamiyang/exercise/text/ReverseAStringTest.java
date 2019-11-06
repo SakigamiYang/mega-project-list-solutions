@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class ReverseAStringTest {
     @Test
-    public void testGetFizzBuzz() {
+    public void testReverse() {
         Assert.assertEquals("", ReverseAString.reverse(""));
         Assert.assertEquals("a", ReverseAString.reverse("a"));
         Assert.assertEquals("ab", ReverseAString.reverse("ba"));

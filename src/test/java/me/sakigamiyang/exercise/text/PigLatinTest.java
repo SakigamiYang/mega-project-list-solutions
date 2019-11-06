@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class PigLatinTest {
     @Test
-    public void testGetFizzBuzz() {
+    public void testConvertToPigLatin() {
         Assert.assertEquals("", PigLatin.convertToPigLatin(""));
         Assert.assertEquals("-aay", PigLatin.convertToPigLatin("a"));
         Assert.assertEquals("a-bay", PigLatin.convertToPigLatin("ba"));

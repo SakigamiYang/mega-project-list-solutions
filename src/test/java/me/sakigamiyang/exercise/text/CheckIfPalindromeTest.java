@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class CheckIfPalindromeTest {
     @Test
-    public void testGetFizzBuzz() {
+    public void testCheck() {
         Assert.assertTrue(CheckIfPalindrome.check(""));
         Assert.assertTrue(CheckIfPalindrome.check("a"));
         Assert.assertTrue(CheckIfPalindrome.check("bb"));

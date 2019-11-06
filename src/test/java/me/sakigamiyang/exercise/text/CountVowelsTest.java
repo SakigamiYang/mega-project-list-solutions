@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class CountVowelsTest {
     @Test
-    public void testGetFizzBuzz() {
+    public void testCount() {
         Assert.assertArrayEquals(new int[]{0, 0, 0, 0, 0}, CountVowels.count(""));
         Assert.assertArrayEquals(new int[]{1, 0, 0, 0, 0}, CountVowels.count("a"));
         Assert.assertArrayEquals(new int[]{0, 1, 0, 0, 0}, CountVowels.count("e"));

@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class CountWordsInAStringTest {
     @Test
-    public void testGetFizzBuzz() {
+    public void testCount() {
         Assert.assertEquals(0, CountWordsInAString.count(""));
         Assert.assertEquals(1, CountWordsInAString.count("word"));
         Assert.assertEquals(2, CountWordsInAString.count("word1 word2"));
