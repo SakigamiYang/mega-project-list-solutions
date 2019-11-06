@@ -1,7 +1,8 @@
 # Mega Project List Solutions
 ---
 Solutions for https://github.com/karan/Projects
-(Part of them. Excluded the projects which need complexity GUI.)
+
+(Part of them. Excluded the projects which has complexity GUI.)
 
 Numbers
 ---------
@@ -222,10 +223,4 @@ Graphics and Multimedia
 - [ ] **Turtle Graphics** - This is a common project where you create a floor of 20 x 20 squares. Using various commands you tell a turtle to draw a line on the floor. You have move forward, left or right, lift or drop pen etc. Do a search online for "Turtle Graphics" for more information. *Optional: Allow the program to read in the list of commands from a file.*
 
 - [ ] **GIF Creator** A program that puts together multiple images (PNGs, JPGs, TIFFs) to make a smooth GIF that can be exported. *Optional: Make the program convert small video files to GIFs as well.*
-
-
-Security
--------------
-
-- [ ] **Caesar cipher** - Implement a Caesar cipher, both encoding and decoding. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20 encrypts "HI" to "BC". This simple "monoalphabetic substitution cipher" provides almost no security, because an attacker who has the encoded message can either use frequency analysis to guess the key, or just try all 25 keys.
 
