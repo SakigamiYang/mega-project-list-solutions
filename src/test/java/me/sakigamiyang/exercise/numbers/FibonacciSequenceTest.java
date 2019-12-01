@@ -35,9 +35,10 @@ public class FibonacciSequenceTest {
         Assert.assertArrayEquals(new Object[]{1, 1, 2, 3, 5, 8}, FibonacciSequence.generateUntil(10).toArray());
     }
 
+    @Test
     public void testGenerateN() {
-        Assert.assertArrayEquals(new Object[]{1, 1}, FibonacciSequence.generateUntil(2).toArray());
-        Assert.assertArrayEquals(new Object[]{1, 1, 2}, FibonacciSequence.generateUntil(3).toArray());
-        Assert.assertArrayEquals(new Object[]{1, 1, 2, 3, 5, 8, 13, 21, 34, 55}, FibonacciSequence.generateUntil(10).toArray());
+        Assert.assertArrayEquals(new Object[]{1, 1}, FibonacciSequence.generateN(2).toArray());
+        Assert.assertArrayEquals(new Object[]{1, 1, 2}, FibonacciSequence.generateN(3).toArray());
+        Assert.assertArrayEquals(new Object[]{1, 1, 2, 3, 5, 8, 13, 21, 34, 55}, FibonacciSequence.generateN(10).toArray());
     }
 }

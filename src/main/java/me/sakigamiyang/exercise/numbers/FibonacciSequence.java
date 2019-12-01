@@ -29,7 +29,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class FibonacciSequence {
+class FibonacciSequence {
     static List<Integer> generateUntil(int num) {
         List<Integer> result = new ArrayList<>();
         int f_1, f_2, temp;
