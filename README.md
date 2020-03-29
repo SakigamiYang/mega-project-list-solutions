@@ -1,7 +1,8 @@
 # Mega Project List Solutions
 ---
 Solutions for https://github.com/karan/Projects
-(Part of them. Excluded the projects which need complexity GUI.)
+
+(Part of them. Excluded the projects which has complexity GUI.)
 
 Numbers
 ---------
@@ -10,11 +11,11 @@ Numbers
 
 - [ ] **Find e to the Nth Digit** - Just like the previous problem, but with e instead of PI. Enter a number and have the program generate e up to that many decimal places. Keep a limit to how far the program will go.
 
-- [ ] **Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
+- [x] **Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
 
-- [ ] **Prime Factorization** - Have the user enter a number and find all Prime Factors (if there are any) and display them.
+- [x] **Prime Factorization** - Have the user enter a number and find all Prime Factors (if there are any) and display them.
 
-- [ ] **Next Prime Number** - Have the program find prime numbers until the user chooses to stop asking for the next one.
+- [x] **Next Prime Number** - Have the program find prime numbers until the user chooses to stop asking for the next one.
 
 - [ ] **Find Cost of Tile to Cover W x H Floor** - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
 
@@ -80,7 +81,7 @@ subgraph that is a tree, contains all the vertices, and the sum of its weights i
 Data Structures
 ---------
 
-- [ ] **Inverted index** - An [Inverted Index](http://en.wikipedia.org/wiki/Inverted_index) is a data structure used to create full text search. Given a set of text files, implement a program to create an inverted index. Also create a user interface to do a search using that inverted index which returns a list of files that contain the query term / terms. The search index can be in memory.
+- [x] **Inverted index** - An [Inverted Index](http://en.wikipedia.org/wiki/Inverted_index) is a data structure used to create full text search. Given a set of text files, implement a program to create an inverted index. Also create a user interface to do a search using that inverted index which returns a list of files that contain the query term / terms. The search index can be in memory.
 
 
 Text
@@ -222,10 +223,4 @@ Graphics and Multimedia
 - [ ] **Turtle Graphics** - This is a common project where you create a floor of 20 x 20 squares. Using various commands you tell a turtle to draw a line on the floor. You have move forward, left or right, lift or drop pen etc. Do a search online for "Turtle Graphics" for more information. *Optional: Allow the program to read in the list of commands from a file.*
 
 - [ ] **GIF Creator** A program that puts together multiple images (PNGs, JPGs, TIFFs) to make a smooth GIF that can be exported. *Optional: Make the program convert small video files to GIFs as well.*
-
-
-Security
--------------
-
-- [ ] **Caesar cipher** - Implement a Caesar cipher, both encoding and decoding. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20 encrypts "HI" to "BC". This simple "monoalphabetic substitution cipher" provides almost no security, because an attacker who has the encoded message can either use frequency analysis to guess the key, or just try all 25 keys.
 
